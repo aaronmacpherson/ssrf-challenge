@@ -1,0 +1,17 @@
+services:
+  web-server:
+    build:
+      dockerfile: ./php/php.Dockerfile
+      args:
+        - UID=${UID:-1000}
+        - GID=${GID:-1000}
+    restart: always
+    volumes:
+      - ./app/:/var/www/html/
+      - ./apache/000-default.conf:/etc/apache2/sites-available/000-default.conf
+      - ./php/ini/upload.ini:/usr/local/etc/php/conf.d/uploads.ini
+      - ./php/ini/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+    environment:
+      - XDEBUG_MODE=${XDEBUG_MODE:-off}
+    ports:
+      - "80:80"

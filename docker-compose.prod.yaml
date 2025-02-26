@@ -1,0 +1,10 @@
+services:
+  web-server:
+    build:
+      dockerfile: ./php/php.prod.Dockerfile
+      args:
+        - UID=${UID:-1000}
+        - GID=${GID:-1000}
+    restart: always
+    ports:
+      - "80:80"

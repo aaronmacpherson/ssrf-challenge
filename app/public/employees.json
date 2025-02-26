@@ -1,0 +1,34 @@
+[
+  {
+      "employees": [
+          {
+              "firstName": "Michael",
+              "lastName": "Scott",
+              "position": "Regional Manager",
+              "email": "michaelscott@dundermifflin.com",
+              "password": "threatlevelmidnight"
+          },
+          {
+              "firstName": "Dwight",
+              "lastName": "Schrute",
+              "position": "Assistant to the Regional Manager",
+              "email": "dwightschrute@dundermifflin.com",
+              "password": "passw0rd"
+          },
+          {
+              "firstName": "Jim",
+              "lastName": "Halpert",
+              "position": "Sales Representative",
+              "email": "jimhalpert@dundermifflin.com",
+              "password": "123456"
+          },
+          {
+              "firstName": "Pam",
+              "lastName": "Beesly",
+              "position": "Receptionist",
+              "email": "pambeesly@dundermifflin.com",
+              "password": "secret123"
+          }
+      ]
+  }
+]
