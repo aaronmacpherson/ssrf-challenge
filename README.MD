@@ -26,7 +26,7 @@ Navigate to `http://localhost` in a browser.
 
 ## Deliverables
 
-Send the following to my email at: w0487492@nscc.ca
+Send the following to me via email or teams:
 
 1. A screenshot of your code solution
 2. The result of the solution in a browser
